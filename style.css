@@ -1,0 +1,97 @@
+header {
+    
+    display: flex;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    line-height: 45px; 
+    font-size: 2rem; 
+    font-size: 50px; 
+    z-index: 2;
+   
+}
+.nav-item {
+    font: 80px;
+    margin: 60px;
+    float: right;
+}
+.nav-link {
+    color: #cccccc;
+    font: 80px;
+}
+
+ul {
+    background-color: #ffffff;
+    z-index: 1;
+    height: 150px;
+}
+
+img {
+    height: 200px;
+    vertical-align: middle;
+    margin: 0 15px;
+    float :left;
+    
+    
+}
+.bodyCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #ffffff;
+    width: 960px;
+    height: 440px;
+    display: block;
+    margin: 200px 200px;
+    position: absolute;
+
+}
+h2 {
+    margin-left: 20px;
+    padding-top: 20px;
+    color: #4aaaa5;
+    font-size: 40px;
+}
+.bodyCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+span {
+    position: absolute;
+    display: block;
+    margin: 20px;
+   
+    
+}
+.form-group {
+    margin: 20px;
+}
+button {
+    margin: 0 20px 500px;
+}
+input[type="message"] {
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0.4em;
+    padding-right: 0.4em;
+    height: 140px;
+    
+}
+.container {
+    padding: 2px 16px;
+    
+    
+  }
+
+
+body {
+    background-color: #dddddd;
+}
