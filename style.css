@@ -1,37 +1,55 @@
-header {
+h1 {
     
     display: flex;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 120px;
     width: 400px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin-left: 40px;
-    margin-top: 20px;
+    top: 0;
+    bottom: 0;
     padding-left: 50px;
-    padding-bottom: 20px;
-    line-height: 45px; 
-    font-size: 2rem; 
+    padding-bottom: 50px;
+    padding-right: 20px;
     font-size: 50px; 
     z-index: 2;
    
 }
+.header {
+    margin: 0 400px 0px 2px;
+    float: left;
+    display: inline-block;
+}
+
 .nav-item {
-    font: 80px;
-    margin: 60px;
+    margin: 40px 0px 2px 20px;
     float: right;
 }
-.nav-link {
+.nav-link  {
     color: #cccccc;
-    font: 80px;
+    display: block;
+    font-size: 25px;
+}
+ul li a:hover {
+    
+    color: #4aaaa5;
+
 }
 
 ul {
     background-color: #ffffff;
-    z-index: 1;
-    height: 150px;
+    list-style-type: none;
+    display:inline-block;
+    float:right;
+    width: 100%;
+    line-height: 100%;
+    
+}
+ul a {
+    margin-right: 40px;
 }
 
 img {
@@ -77,6 +95,7 @@ span {
 button {
     margin: 0 20px 500px;
 }
+
 input[type="message"] {
     padding-left:0;
     padding-top:0;
