@@ -53,10 +53,12 @@ ul a {
 }
 
 img {
-    height: 200px;
+    height: 250px;
+    width: 220px;
     vertical-align: middle;
-    margin: 0 15px;
+    margin: 0 50px 50px 50px;
     float :left;
+    margin-top: 50px;
     
     
 }
@@ -109,25 +111,25 @@ input[type="message"] {
     
     
   }
-.container1 {
+.upperContainer {
     position: absolute;
     
   }
 
   
-  
-  .text-block {
+.lowerContainer {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+}
+  .text-block {
+    position: relative;
+    width: 80%;
+    top: 279px;
+    left: 100px;
+    margin-right: 190px;
     background-color: #4aaaa5;
     color: white;
-    padding-left: 20px;
-    padding-right: 25px;
-    padding-top: 5px;
-    width: 88%;
-    margin-top: 30px;
-    text-align: center;
+    padding-top: 5px; 
+    
   }
 
 
