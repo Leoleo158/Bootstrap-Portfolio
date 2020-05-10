@@ -1,39 +1,27 @@
-h1 {
-    
-    display: flex;
-    float: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 120px;
-    width: 400px;
-    text-align: center;
-    padding-top: 30px;
+
+#name {
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: xx-large;
+    height: 10%;
+    width: auto;
     background-color: #4aaaa5;
-    color: #ffffff;
-    top: 0;
-    bottom: 0;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    padding-right: 20px;
-    font-size: 50px; 
-    z-index: 2;
-   
-}
-.header {
-    margin: 0 400px 0px 2px;
-    float: left;
     display: inline-block;
+}  
+#item {
+    padding-left: 800px;
+    margin-right: 50px;
+}
+#item:hover {
+    color: #4aaaa5;
+
+}
+#items {
+    margin-right: 50px;
 }
 
-.nav-item {
-    margin: 40px 0px 2px 20px;
-    float: right;
-}
-.nav-link  {
-    color: #cccccc;
-    display: block;
-    font-size: 25px;
-}
-ul li a:hover {
+#items:hover {
     
     color: #4aaaa5;
 
@@ -43,35 +31,38 @@ ul {
     background-color: #ffffff;
     list-style-type: none;
     display:inline-block;
-    float:right;
     width: 100%;
     line-height: 100%;
     
-}
-ul a {
+} 
+ ul a {
     margin-right: 40px;
-}
+} 
 
 img {
-    height: 250px;
-    width: 220px;
-    vertical-align: middle;
-    margin: 0 50px 50px 50px;
+    max-width: 100%;
+    min-width: 20%;
+    height: 30%;
+    width: 25%;
+    margin: 0 40px 40px 40px;
     float :left;
     margin-top: 50px;
     
     
 }
-.bodyCard {
+.card {
+    width: auto;
+    min-width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     background-color: #ffffff;
-    width: 960px;
-    height: 440px;
+    height: auto;
     display: block;
     margin: 200px 200px;
     position: absolute;
-
+}
+.card-text {
+    word-wrap: break-word;
 }
 h2 {
     margin-left: 20px;
@@ -79,7 +70,7 @@ h2 {
     color: #4aaaa5;
     font-size: 40px;
 }
-.bodyCard:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 }
@@ -91,12 +82,9 @@ span {
    
     
 }
-.form-group {
+ .form-group {
     margin: 20px;
-}
-button {
-    margin: 0 20px 500px;
-}
+} 
 
 input[type="message"] {
     padding-left:0;
@@ -106,25 +94,20 @@ input[type="message"] {
     height: 140px;
     
 }
-.container {
-    padding: 2px 16px;
+ .container {
+     padding: 2px 16px; 
     
     
-  }
-.upperContainer {
-    position: absolute;
-    
-  }
+  } 
 
   
 .lowerContainer {
     position: absolute;
 }
   .text-block {
-    position: relative;
-    width: 80%;
-    top: 279px;
-    left: 100px;
+    position: absolute fixed;
+    top: 300px;
+    left: 300px;
     margin-right: 190px;
     background-color: #4aaaa5;
     color: white;
@@ -132,7 +115,39 @@ input[type="message"] {
     
   }
 
+  .text-block1 {
+    position: relative;
+    top: 300px;
+    left: 400px;
+    margin-right: 190px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 5px; 
+  }
+
 
 body {
     background-color: #dddddd;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #777777;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: rgb(74, 170, 165);
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+}
+
+@media screen and (max-width: 480px) {
+    img {
+         width: 400px;
+    }
 }
